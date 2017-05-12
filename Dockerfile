@@ -7,5 +7,6 @@ COPY . /app
 WORKDIR /app
 
 RUN mvn clean package
+RUN mwnw spring-boot:run
 
 EXPOSE 8080
