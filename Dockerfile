@@ -4,7 +4,4 @@ MAINTAINER Dennis Peitersen
 RUN mkdir /app
 COPY . /app
 
-RUN cd app
-RUN ./mvnw spring-boot:run
-
 EXPOSE 8080
