@@ -4,4 +4,8 @@ MAINTAINER Dennis Peitersen
 RUN mkdir /app
 COPY . /app
 
+WORKDIR /app
+
+RUN mvn clean package
+
 EXPOSE 8080
