@@ -15,7 +15,7 @@ public class UserProfileController {
 	public UserProfile byId(
 			@RequestParam String uuidStr
 	) {
-		return new UserProfile(UUID.fromString(uuidStr), "Dennis Peitersen");
+		return new UserProfile(UUID.fromString(uuidStr), "Dennis Peitersen2");
 	}
 
 }
